@@ -1,7 +1,7 @@
 import { createAction } from 'promise-middleware-redux';
-import { getTMNTdata } from '../services/MLPvsTMNTapi';
+import { getTMNTData } from '../services/MLPvsTMNTapi';
 
 export const [
   fetchTMNT,
   FETCH_TMNT,
-] = createAction('FETCH_TMNT', getTMNTdata);
+] = createAction('FETCH_TMNT', getTMNTData);

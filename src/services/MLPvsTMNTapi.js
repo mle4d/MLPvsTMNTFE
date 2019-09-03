@@ -9,7 +9,7 @@ const get = url => {
     });
 };
 
-export const getMLP = id => {
+export const getMLPData = id => {
   return get('')
     .then(json => ({
       id: json._id,
@@ -19,7 +19,7 @@ export const getMLP = id => {
       coolFactor: json.coolFactor
     }));
 };
-export const getTMNT = id => {
+export const getTMNTData = id => {
   return get('')
     .then(json => ({
       id: json._id,

@@ -9,15 +9,6 @@ const get = url => {
     });
 };
 
-// export const getCartoons = () => {
-//   return get('')
-//     .then(json => json.map(cartoon => ({
-//       id: cartoon._id,
-//       name: cartoon.name,
-//       img: cartoon.img
-//     })));
-// };
-
 export const getMLP = id => {
   return get('')
     .then(json => ({

@@ -10,7 +10,7 @@ const get = url => {
 };
 
 export const getMLPData = id => {
-  return get('')
+  return get('https://mlp-vs-tmnt.herokuapp.com/api/v1/mlp')
     .then(json => ({
       id: json._id,
       name: json.name,
@@ -20,7 +20,7 @@ export const getMLPData = id => {
     }));
 };
 export const getTMNTData = id => {
-  return get('')
+  return get('https://mlp-vs-tmnt.herokuapp.com/api/v1/tmnt')
     .then(json => ({
       id: json._id,
       name: json.name,
